@@ -1,16 +1,16 @@
 [package]
-name = "loom-base"
+name = "frp-loom"
 version = "0.1.0"
 edition = "2024"
-description = "Storage traits and in-memory implementations for the Loom graph layer."
+description = "Storage traits and in-memory implementations for the frp graph layer."
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/joneseysinno/loom-base.git"
-documentation = "https://docs.rs/loom-base"
-keywords = ["graph", "storage", "store", "loom", "plexus"]
+repository = "https://github.com/joneseysinno/frp-loom.git"
+documentation = "https://docs.rs/frp-loom"
+keywords = ["graph", "storage", "store", "frp", "infinite-db"]
 categories = ["data-structures"]
 
 [dependencies]
-plexus-base = { version = "0.1.0", path = "../plexus-core" }
+frp-plexus = { version = "0.1.0", path = "../frp-plexus" }
 thiserror = { workspace = true }
 
 [features]

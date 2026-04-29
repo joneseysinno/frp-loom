@@ -1,4 +1,4 @@
-use plexus_base::{AtomId, BlockId, EdgeId};
+use frp_plexus::{AtomId, BlockId, EdgeId};
 
 use crate::error::StoreError;
 use crate::query::{Query, QueryResult};
@@ -7,7 +7,7 @@ use crate::query::{Query, QueryResult};
 // AtomStore
 // ---------------------------------------------------------------------------
 
-/// Persistent storage contract for [`Atom`](loom_domain::atom::Atom)-like
+/// Persistent storage contract for [`Atom`](frp_domain::atom::Atom)-like
 /// values, keyed by [`AtomId`].
 ///
 /// Implementors provide a concrete `Atom` associated type (typically the
@@ -34,7 +34,7 @@ pub trait AtomStore {
 // BlockStore
 // ---------------------------------------------------------------------------
 
-/// Persistent storage contract for [`Block`](loom_domain::block::Block)-like
+/// Persistent storage contract for [`Block`](frp_domain::block::Block)-like
 /// values, keyed by [`BlockId`].
 pub trait BlockStore {
     /// The block value type stored and retrieved by this implementation.
@@ -58,7 +58,7 @@ pub trait BlockStore {
 // ---------------------------------------------------------------------------
 
 /// Persistent storage contract for
-/// [`HyperEdge`](loom_domain::edge::HyperEdge)-like values, keyed by
+/// [`HyperEdge`](frp_domain::edge::HyperEdge)-like values, keyed by
 /// [`EdgeId`].
 pub trait EdgeStore {
     /// The edge value type stored and retrieved by this implementation.

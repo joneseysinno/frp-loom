@@ -6,7 +6,7 @@
 
 use std::collections::HashMap;
 
-use plexus_base::{AtomId, BlockId, EdgeId};
+use frp_plexus::{AtomId, BlockId, EdgeId};
 
 use crate::error::StoreError;
 use crate::query::{Query, QueryResult};

@@ -1,4 +1,4 @@
-//! Storage traits and in-memory implementations for the Loom graph layer.
+//! Storage traits and in-memory implementations for the frp graph layer.
 //!
 //! Provides `AtomStore`, `BlockStore`, and `EdgeStore` traits plus
 //! `HashMap`-backed in-memory implementations (behind the `in-memory` feature
