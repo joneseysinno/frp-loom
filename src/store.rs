@@ -1,4 +1,4 @@
-use plexus_core::{AtomId, BlockId, EdgeId};
+use plexus_base::{AtomId, BlockId, EdgeId};
 
 use crate::error::StoreError;
 use crate::query::{Query, QueryResult};

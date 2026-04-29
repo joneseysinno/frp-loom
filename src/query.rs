@@ -6,7 +6,7 @@
 ///
 /// Build via the fluent API:
 /// ```rust
-/// # use loom_core::query::Query;
+/// # use loom_base::query::Query;
 /// let q = Query::new()
 ///     .kind("Atom::Source")
 ///     .tag("layer:domain")

@@ -1,16 +1,16 @@
 [package]
-name = "loom-core"
+name = "loom-base"
 version = "0.1.0"
 edition = "2024"
 description = "Storage traits and in-memory implementations for the Loom graph layer."
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/plexus-loom/plexus-loom"
-documentation = "https://docs.rs/loom-core"
+repository = "https://github.com/joneseysinno/loom-core.git"
+documentation = "https://docs.rs/loom-base"
 keywords = ["graph", "storage", "store", "loom", "plexus"]
 categories = ["data-structures"]
 
 [dependencies]
-plexus-core = { version = "0.1.0", path = "../plexus-core" }
+plexus-base = { version = "0.1.0", path = "../plexus-core" }
 thiserror = { workspace = true }
 
 [features]
